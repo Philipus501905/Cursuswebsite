@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+   color: #444;
+   font-family: sans-serif;
+
+   border-top: 10px solid #1098AD;
+}
+.container {
+    width: 800px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, p, li{
+    font-family: sans-serif;
+    color: #444;
+}
+
+h1,h2,h3 {
+    color: #1098AD;
+}
+
+h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ul, ol{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+
+#author {
+    font-style: italic;
+    font-size: 18px;}
+
+#copyright {
+    font-size: 16px;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ul {
+    list-style: none;
+} */
+.author-list {
+    list-style: none;
+}
+
+.main-header {
+    background-color: #e6e6e6;
+    padding: 20px 40px;
+    margin-bottom: 60px;
+    height: 80px;
+}
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+aside {
+    background-color: #e6e6e6;
+    border-top: 5px solid #1098AD;
+    border-bottom: 5px solid #1098AD;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    padding: 50px 0;
+    width: 500px;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+li:last-child{
+    font-style: italic;
+}
+
+/* styling links */
+a:link{
+    text-decoration: none;
+    color: #1098AD;
+}
+
+a:visited{
+    color: #1098AD;
+}
+
+a:hover{
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:active{
+    background-color: black;
+    font-style: italic;
+}
+/*LVHA*/
+
+nav {
+    font-size: 18px;
+}
